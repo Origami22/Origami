@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{font:16px/1.8 "microsoft yahei",verdana}
+.section{
+	position: relative;
+	background: #FFFFFF;
+	overflow: hidden;
+	text-align:center;
+}
+
+.section1{
+	background:url(../images/hero_sunset_large_2x.jpg) no-repeat center center;
+	background-size: cover;
+}
+.section1 h1{
+	margin-top: 5%;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-size: 70px;
+	opacity: 0.8;
+}
+.section1 p{
+	margin: 5% auto 0 auto;
+	color: #FFFFFF;
+	font-size: 18px;
+	width: 60%;
+	opacity: 0.6;
+	/*margin-top: 800px;*/
+}
+.section1 a{
+	display: block;
+	margin: 5% auto 0 auto;
+	color: #FF9000;
+	font-size: 18px;
+	opacity: 0.9;
+}
+
+.section2{
+	background:#F2F2F2 url(../images/technology_hero_large_2x.jpg) no-repeat bottom;
+	background-size: 100%;
+}
+.section2 h1{
+	margin: 20px auto;
+	color: #333333;
+	font-weight: normal;
+	font-size: 80px;
+}
+.section2 a{
+	display: block;
+	margin: 20px auto 0 auto;
+	color: #08c;
+	font-size: 18px;
+}
+.section3{
+	background:#FFFFFF url(../images/timekeeping_hero_large_2x.jpg) no-repeat center 300px;
+	background-size: 50%;
+}
+.section3 h1{
+	margin: 20px auto;
+	color: #333333;
+	font-weight: normal;
+	font-size: 40px;
+	width: 60%;
+	/*margin-left: -1500px;*/
+}
+.section3 p{
+	margin: 20px auto 0 auto;
+	color: #333;
+	font-size: 18px;
+	opacity: 0.6;
+	/*margin-left: 1500px;*/
+}
+.section3 a{
+	display: block;
+	margin: 20px auto 0 auto;
+	color: #08c;
+	font-size: 18px;	
+}
+.section4{
+	background: #F2F2F2;
+}
+.section4 h1{
+	margin: 20px auto 10px auto;
+	color: #333333;
+	font-weight: normal;
+	font-size: 40px;
+}
+.section4 .row{
+	width: 95%;
+	margin-left: 20px;
+	color: #333333;
+	font-size: 18px;
+}
+.section4 .column{
+	float: left;
+	display: inline-block;
+	width: 31%;
+	margin: 10px;
+	padding-bottom: 30px;
+	background: #F2F2F2;
+}
+.section4 .column h4{
+	margin: 20px auto;
+}
+.section4 .column h4.primary{
+	width: 102px;
+	height: 22px;
+	background: url(../images/logo_collection_primary.svg);
+	background-size: 102px 22px;
+}
+.section4 .column h4.sport{
+	width: 178px;
+	height: 22px;
+	background: url(../images/logo_collection_sport.svg);
+	background-size: 178px 22px;
+}
+.section4 .column h4.edition{
+	width: 190px;
+	height: 22px;
+	background: url(../images/logo_collection_edition.svg);
+	background-size: 190px 22px;
+}
+.section4 .column p{
+	width: 90%;
+	font-size: 16px;
+	margin: 10px auto;
+}
+.section4 .column a{
+	display: block;
+	margin: 10px auto 0 auto;
+	color: #08c;
+	font-size: 16px;	
+}
